@@ -1,5 +1,5 @@
 h1 {
-    background-image: url(Image/belle-image.png);
+    background-public: url(public/belle-public.png);
     text-align: center;
     font-size:4em;
     color: indigo;
