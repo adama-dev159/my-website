@@ -1,0 +1,162 @@
+h1 {
+    background-image: url(Image/belle-image.png);
+    text-align: center;
+    font-size:4em;
+    color: indigo;
+}
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+}
+h2 {
+    font-size:2.5em;
+}
+header {
+    font-size: 20px;
+}
+body {
+    background-color: #c5c7d1;
+    
+}
+footer {
+    background-color: white;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style:circle;
+    margin-right: 50px;
+}
+p {
+    padding:50px;
+    background: cadetblue;
+   /*  margin-bottom: 40px;
+    margin-right: 30px;
+    margin-left:30px; */
+    border-radius: 180px;
+    text-align: center;
+}
+.box {
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid black;
+  /*   width: 60px;
+    height: 40px; */
+    background-color: white;
+    text-decoration: underline;
+    box-shadow: 6px 6px 6px black;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteneur {
+    display:grid;
+    grid-template-columns: 150px 150px 150px 150px 100px 150px 150px 100px 150px;
+    grid-template-rows: 50px 50px 50px 50px;
+    gap: 20px;
+}
+/* .one {
+    grid-column-start: 1;
+    grid-column-end: 10;
+} */
+.conteneur {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.one {
+    background-color: #C2B0F9;
+    position: absolute;
+    left: 0;
+    top: 90px;
+}
+
+.two {
+    background-color: #CBFCB9;
+    position: absolute;
+    right: 70px;
+    top: 0;
+}
+
+.three {
+    background-color: #F2A3BB;
+    position: relative;
+    right: 0;
+    bottom: 20px;
+}
+.four {
+    background-color: #C2B0F9;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+.five {
+    background-color: #48a45f;
+    position: relative;
+    right: 200px;
+    top: 30px;
+}
+.six {
+    background-color: #3c2388;
+    position: absolute;
+    left: 0px;
+    bottom: 100px;
+}
+.seven {
+    background-color: #cb3873;
+    position: absolute;
+    left: 0;
+    top: 90px;
+}
+.eight {
+    background-color: #7f7d14;
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+.nine {
+    background-color: #f34c0a;
+    position: relative;
+    left: 0;
+    bottom: 90px;
+}
+.ten {
+    background-color: #307c8d;
+    position: relative;
+    right: 0;
+    top: 50px;
+}
+/* td {
+    border: 1px solid black;
+   
+} */
+th, td {
+    border: 1px solid black;
+    padding:10px;
+}
+table {
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    
+    
+}
+caption{
+    text-decoration: underline;
+    caption-side: bottom;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* margin: auto; */
+    caption-side: top;
+}
+input {
+    border: 1px dashed purple;
+    
+}
